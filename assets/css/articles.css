@@ -1,0 +1,257 @@
+html {
+    display: block;
+    height: 100%;
+    font-size: 10px;
+    font-family: sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding-top: 10px !important;
+    min-width: 768px;
+    height: 100%;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+    font-size: 17px;
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, Helvetica Neue, Helvetica;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    line-height: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+    color: #337ab7;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.content {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 15px 0;
+}
+
+.main {
+    width: 66.66667%;
+    min-height: 1px;
+    float: left;
+    position: relative;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.main .trigger-menu {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0;
+    list-style: none;
+}
+
+.main .trigger-menu .active {
+    position: relative;
+    display: inline-block;
+    padding: 8px 0;
+    margin-bottom: -1px;
+    border-bottom: 2px solid rgb(100, 100, 100);
+}
+
+.main .trigger-menu .active a {
+    padding: 13px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #969696;
+    line-height: 25px;
+}
+
+.main .trigger-menu .active a, .main .trigger-menu .active a:hover {
+    color: #646464;
+}
+
+.main .trigger-menu .active a i {
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.main .note-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main .note-list li {
+    position: relative;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px 2px 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+    word-wrap: break-word;
+}
+
+.main .note-list li .title {
+    margin: -7px 0 4px;
+    display: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.main .note-list li .title:visited {
+    color: #969696;
+}
+
+.main .note-list li .abstract {
+    margin: 0 0 8px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999;
+}
+
+.main .note-list li .meta {
+    padding-right: 0 !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main .note-list li .meta a, .main .note-list li .meta a:hover {
+    margin-right: 10px;
+    color: #b4b4b4;
+    -webkit-transition: .1s ease-in;
+}
+
+.main .note-list li .meta span {
+    margin-right: 10px;
+    color: #b4b4b4;
+}
+
+.right-side {
+    padding: 0;
+    float: left;
+    width: 29.16667%;
+    position: relative;
+    min-height: 1px;
+    margin-left: 4.16667%;
+}
+
+.right-side .section .title {
+    float: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #969696;
+}
+
+.right-side .section .description {
+    position: relative;
+    margin-bottom: 16px;
+    padding: 0 0 16px;
+    text-align: left;
+    font-size: 0;
+    border-bottom: 1px solid #f0f0f0;
+    clear: both;
+    word-break: break-word !important;
+}
+
+.right-side .section .description .intro {
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.right-side .section .list {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    list-style: none;
+    border-bottom: 1px solid #f0f0f0;
+    clear: both;
+}
+
+.right-side .section .list li {
+    margin-bottom: 10px;
+}
+
+.right-side .section .list li a {
+    display: inline-block;
+}
+
+.right-side .section .list li a:hover {
+    color: #3194d0;
+}
+
+.right-side .section .list li .name {
+    position: relative;
+    max-width: 236px;
+    vertical-align: middle;
+    top: 1px;
+    font-size: 14px;
+    color: #333;
+}
+
+.right-side .section .list li a .icon-search-notebook {
+    color: #969696;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(../fonts/iconfont.ttf) format("truetype")
+}
+
+.iconfont {
+    font-family: iconfont !important;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-articles:before {
+    content: "\E60A";
+}
+
+.icon-list-comments:before {
+    content: "\E660";
+}
+
+.icon-list-like:before {
+    content: "\E661";
+}
+
+.icon-list-read:before {
+    content: "\E662";
+}
+
+.icon-search-notebook:before {
+    content: "\E643";
+}
